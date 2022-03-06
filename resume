@@ -5,7 +5,7 @@ noir et blanc
 
 pgm
 -Pour le image en gis
-2 premier ligne meme pour le pbm
+2 premier ligne meme pourv le pbm
 3eme ligne -- valeur max que peut prendre un pixel : 255
 
 Les lignes donne l'intensité de chaque pixel
