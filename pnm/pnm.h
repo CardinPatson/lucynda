@@ -33,7 +33,6 @@ typedef enum{
 }Format;
 
 /***/
-void check_comment(FILE *fp , char *filename);
 int compare_file_format(char *filename,Format type);
 
 /*AWAIT*/
@@ -263,6 +262,7 @@ int compare_file_format(char *filename,Format type);
 
 void check_comment(FILE *fp, char *filename);
 
+char *extension_fichier(char *filename);
 
 /**
  * create_matrice

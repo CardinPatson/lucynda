@@ -1,0 +1,23 @@
+Exactitude: 
+
+Non respect du format de lâarchive, abort pour les fichiers hippocampe, scs, et Washington, 
+abort pour mauvais arguments passes au programme, 
+probleme a la copie pour certains fichiers, 
+
+tu ne dois pas free des pointeurs null, **** 
+fuites memoire en cas d erreur d allocation de la matrice, 
+
+
+--non respect des post-conditions de write_pnm (destruction de l image a la fin de la fonction), .
+
+Langage: Redondance du code dans la gestion des 3 types de fichiers, 
+
+manque check de succes d allocation memoire,
+les fonctions auxiliaires devraient etre static, 
+
+declaration des variables loin de leur utilisation/initialisation,
+   
+hardcodage valeur max des pixels, . 
+
+Style: Aucune documentation (copie colle de la documentation de load_pnm),
+    probleme d indentation, trop de lignes vides entre les lignes de code,
