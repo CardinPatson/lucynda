@@ -20,6 +20,15 @@ OBJECTS=main.o pnm.o
 
 ## Rules
 
+#concept
+
+# target... : prerequist..
+# 			recipe 
+
+# target : (name of a file generate by the program : elf file or the name of action to carry out : clean)
+# prerequist : (le fichier en entré utilisé pour créer le target file : .c file)
+#recipe : action que le make va effectuer
+
 all: $(EXEC)
 
 pnm: $(OBJECTS)
